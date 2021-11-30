@@ -1,9 +1,9 @@
-import "./App.css";
+
 import {
   Toolbar,
   Drawer
   } from "@material-ui/core";
-import Styles from './Styles';
+import Styles from '../../Styles';
 import DrawerListItems from "./DrawerListItems";
 
 function SideNav() {

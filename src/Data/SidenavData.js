@@ -39,8 +39,8 @@ const SidenavData = [
         },
         {
           id:"3",
-          label: "Follows",
-          href: "/about",
+          label: "Map",
+          href: "/map",
           icon: <InboxIcon />,
         }
       ],

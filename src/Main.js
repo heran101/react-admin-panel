@@ -6,10 +6,10 @@ import { Link as RouterLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import Styles from './Styles';
-import headersData from './headersData';
-import SideNav from "./Sidenav";
-import HeaderNav from "./HeaderNav";
-import DrawerListItems from "./DrawerListItems";
+import headersData from './Data/headersData';
+import SideNav from "./layout/SideNav/Sidenav";
+import HeaderNav from "./layout/header/HeaderNav";
+import DrawerListItems from "./layout/SideNav/DrawerListItems";
 import RouterOutlet from "./RouterOutlet";
 export default function Main() {
 

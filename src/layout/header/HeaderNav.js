@@ -1,4 +1,4 @@
-import Logo from './Logo';
+import Logo from '../../Logo';
 import {
     AppBar,
     Toolbar,
@@ -6,7 +6,7 @@ import {
     IconButton,
     } from "@material-ui/core";
 import MenuIcon from '@material-ui/icons/Menu';
-import Styles from './Styles';
+import Styles from '../../Styles';
 
 const HeaderNav = ({getMenuButtons,handleDrawerOpen,
                     handleDrawerClose,

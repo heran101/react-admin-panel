@@ -2,11 +2,12 @@ import {
     Toolbar,
     CssBaseline
     } from "@material-ui/core";
-import Dashboard from'./Dashboard'
+import Dashboard from'./pages/Dashboard/Dashboard'
 import { BrowserRouter as Route,Switch } from "react-router-dom";
-import About from'./About'
+import About from'./pages/About/About'
 import { BrowserRouter as Router } from "react-router-dom";
 import Styles from './Styles';
+import Leaflet from "./pages/Leaflet";
 const RouterOutlet = ({mobileView,displayMobile,displayDesktopSidebar}) => {
 	
 	const classes = Styles();
@@ -23,6 +24,9 @@ const RouterOutlet = ({mobileView,displayMobile,displayDesktopSidebar}) => {
 									</Route>
 									<Route path="/about">
 									<About/>
+									</Route>
+									<Route path="/map">
+									<Leaflet/>
 									</Route>
 							</Switch>        
 						</main>

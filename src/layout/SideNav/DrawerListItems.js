@@ -8,8 +8,8 @@ import {
   
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import { Link as RouterLink } from "react-router-dom";
-import Styles from './Styles';
-import SidenavData from './SidenavData';
+import Styles from '../../Styles';
+import SidenavData from '../../Data/SidenavData';
 const DrawerListItems = () => {
   const classes = Styles();
     return ( 
